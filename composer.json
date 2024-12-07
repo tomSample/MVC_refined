@@ -1,0 +1,15 @@
+{
+    "name": "tomgrd/mvc-refined",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tomGrd",
+            "email": "thomasgrandjean45@gmail.com"
+        }
+    ],
+    "require": {}
+}

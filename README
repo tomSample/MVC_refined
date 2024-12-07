@@ -1,0 +1,13 @@
+MVC from scratch
+
+To-do avant de se lancer :
+
+1/ Modifier le fichier composer.json ("name" et section "author")
+2/ Modifier le fichier config/database.php et adapter à votre bdd locale (BDD MySQL utilisée pour créer ce projet)
+3/ La classe User (Models/User.php , src/Controllers/UserController.php et src/Views/user/index.php) est ici utilisée comme exemple d'utilisation et existe dans la base de donnée (firstName, lastName, birthdate sont des colonnes dans la bdd).
+
+Comment lancer le serveur :
+
+1/ Se déplacer dans la fichier racine de votre projet
+2/ Taper dans votre terminal : "php -S localhost:8000 -t public"
+3/ Ouvrir le navigateur au port :8000 (ne fonctionnera pas si https:// => http://)
