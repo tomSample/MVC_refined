@@ -6,6 +6,20 @@
     <title>Simple MVC</title>
 </head>
 <body>
-    <?php include($view); ?> 
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/user">Users</a></li>
+            <li><a href="#!">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <?php include($view); ?> 
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Mon Projet</p>
+    </footer>
 </body>
 </html>

@@ -1,18 +1,19 @@
 <?php
 namespace App\Controllers;
 
-use App\Models\User;
+use App\Models\Utilisateur;
 
-class UserController extends Controller {
+class UtilisateurController extends Controller {
 
     /**
      * @Route("/user", name="user_index")
      */
     public function index() {
-        $userModel = new User();
+        $userModel = new Utilisateur();
         $users = $userModel->getUsers();
         $this->render('user/index', [
             'users' => $users
         ]);
     }
 }
+?>
